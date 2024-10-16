@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Ilmu Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Segala Macam Ilmu</h1>
+        <p id="ilmu">Klik untuk mendapatkan ilmu baru!</p>
+        <button id="newIlmuBtn">Ilmu Lain Abangku!</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        window.onload(darkmode());
+        function darkmode(){
+            if(confirm("Dark Mode")==1){
+                document.getElementById("body").style.backgroundColor="#1e1e1e";
+            }
+        }
+    </script>
+</body>
+</html>
